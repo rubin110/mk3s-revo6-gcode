@@ -1,11 +1,0 @@
---2023-03-11 15:45:28--  https://sdk.bitmoji.com/render/panel/a94a1c04-3f49-4c24-bfb9-e9e545c98738-ed071e78-8bd7-402e-b03d-d3d4a10d803e-v1.png?transparent=1
-Resolving sdk.bitmoji.com (sdk.bitmoji.com)... 52.84.52.27, 52.84.52.118, 52.84.52.95, ...
-Connecting to sdk.bitmoji.com (sdk.bitmoji.com)|52.84.52.27|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified [image/png]
-Saving to: ‘a94a1c04-3f49-4c24-bfb9-e9e545c98738-ed071e78-8bd7-402e-b03d-d3d4a10d803e-v1.png?transparent=1’
-
-               a94a1c04-3f49-     [<=>                                               ]       0  --.-KB/s               a94a1c04-3f49-4c24-bfb9-e9e54     [ <=>                                              ] 111.22K  --.-KB/s    in 0.02s   
-
-2023-03-11 15:45:29 (6.08 MB/s) - ‘a94a1c04-3f49-4c24-bfb9-e9e545c98738-ed071e78-8bd7-402e-b03d-d3d4a10d803e-v1.png?transparent=1’ saved [113888]
-
