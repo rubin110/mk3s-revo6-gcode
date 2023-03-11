@@ -1,8 +1,10 @@
 # G-Code for the Prusa i3 MK3S and Revo Six
 
-<center><img src="https://github.com/rubin110/mk3s-revo6-gcode/blob/main/images/mk3s.jpg?raw=trueg" height="200"><img src="https://github.com/rubin110/mk3s-revo6-gcode/blob/main/images/revosix.jpg?raw=true" height="200"></center><br>
+<p align="center"><img src="https://github.com/rubin110/mk3s-revo6-gcode/blob/main/images/mk3s.jpg?raw=trueg" height="200"><img src="https://github.com/rubin110/mk3s-revo6-gcode/blob/main/images/revosix.jpg?raw=true" height="200"></p><br>
 
-This is quality of life G-Code I've modified over time for my [Prusa i3 MK3S}(https://www.prusa3d.com/category/original-prusa-i3-mk3s/) running with E3D [Revo Six](https://e3d-online.com/products/revo-six). I have a MK3S+ but I believe this should also work with a MK3S.
+This is quality of life G-Code I've modified over time for my [Prusa i3 MK3S](https://www.prusa3d.com/category/original-prusa-i3-mk3s/) running with E3D [Revo Six](https://e3d-online.com/products/revo-six).
+
+I have a MK3S+ but I believe this should also work with a MK3S.
 
 ## Warning
 I had an Ender 3 for a short time a couple years ago, then needed to pause from some of my funner hobbies. I've just now started diving into 3D printing again with an Prusa i3 MK3S. I don't fully understand G-Code, so please review any G-Code you use and **proceed at your own risk**. I am not affiliated with Prusa or E3D, and nothing linked from this page will provide me with any affiliate kickback.
@@ -15,12 +17,12 @@ I've cobbled together G-Code for the start, end, and cancellation scripts to eas
 
 ## The quality of life goals of this G-Code are to:
 ### End a print or canceling a print:
-* Retract the filament just enough to clear the nozzle.
+* Retract the filament just enough to clear the nozzle: `G1 E-30 F800`
     * Swapping of nozzle can now happen once the printer has cooled down naturally after the end of a print.
     * Skipping the "Load filament" option by keeping it engaged with the extruder motor gears. Just start your next print (regardless of if you swap nozzles or not).
     * Disable the extruder motor so it's possible to manually (slowly) pull up on the filament that's not attached to the nozzle (regardless of if you swap nozzles or not).
 ### Start of print:
-* Starting line:
+* Starting line
     * Extra long triple starting line to compensate for how far the filament has been retracted from the nozzle.
     * Start line doesn't go fully to the corners of the build plate as the MK3S has a known issue of [5C drop at the corners of the bed](https://youtu.be/2sW25xt5E6U?t=697), this prevents the starting line from getting dragged away with the nozzle.
 * Pull up and wait 5 seconds for nozzle wipe, gives you a chance to clean the nozzle (nose blowing) with a wire brush.
@@ -37,4 +39,4 @@ I really like this [threaded Revo Six nozzle holder](https://www.printables.com/
 
 ## Good luck!
 
-<center><img src="https://github.com/rubin110/mk3s-revo6-gcode/blob/main/images/goodluck.png?raw=true" height="300"></center>
+<p align="center"><img src="https://github.com/rubin110/mk3s-revo6-gcode/blob/main/images/goodluck.png?raw=true" height="300"></p>
