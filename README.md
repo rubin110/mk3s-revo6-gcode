@@ -1,4 +1,6 @@
-# G-Code for using the Revo Six with a Prusa i3 MK3S
+# G-Code for the Prusa i3 MK3S and Revo Six
+
+<center><img src="https://github.com/rubin110/mk3s-revo6-gcode/blob/main/images/mk3s.jpg?raw=trueg" height="200"><img src="https://github.com/rubin110/mk3s-revo6-gcode/blob/main/images/revosix.jpg?raw=true" height="200"></center><br>
 
 This is quality of life G-Code I've modified over time for my [Prusa i3 MK3S}(https://www.prusa3d.com/category/original-prusa-i3-mk3s/) running with E3D [Revo Six](https://e3d-online.com/products/revo-six). I have a MK3S+ but I believe this should also work with a MK3S.
 
@@ -35,3 +37,4 @@ I really like this [threaded Revo Six nozzle holder](https://www.printables.com/
 
 ## Good luck!
 
+<center><img src="https://github.com/rubin110/mk3s-revo6-gcode/blob/main/images/goodluck.png?raw=true" height="300"></center>
