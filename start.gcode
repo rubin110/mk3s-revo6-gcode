@@ -1,5 +1,6 @@
 ; PrusaSlicer start gcode for Prusa i3 Mk3
-; Last updated 20210316
+; Last updated 20250704
+
 ; M300 S40 P10 ; chirp
 M862.3 P "[printer_model]" ; printer model check
 M862.1 P[nozzle_diameter] ; nozzle diameter check
@@ -90,15 +91,15 @@ G1 Y-3.0 X50 F2500.0
 G1 E2 F1000 ; de-retract and push ooze
 
 ;G1 X20.0 E6  F1000.0 ; fat 20mm intro line @ 0.30
-G1 X190.0 E35.0 F2000.0
+G1 X190.0 E25.0 F2000.0
 
 ;G1 X60.0 E3.2  F1000.0 ; thin +40mm intro line @ 0.08
 G1 Y-2.3 F1000.0
-G1 X50.0 E12 F2000.0
+G1 X50.0 E10 F2000.0
 
 ;G1 X100.0 E6  F1000.0 ; fat +40mm intro line @ 0.15
 G1 Y-1.6 F1000.0
-G1 X193.0 E25 F2000.0
+G1 X193.0 E20 F2000.0
 
 G1 E-0.8 F3000; retract to avoid stringing
 G1 X191.5 E0 F1000.0 ; -0.5mm wipe action to avoid string
